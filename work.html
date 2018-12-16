@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>View My Work</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        HOME
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        ABOUT ME
+                    </a>
+                </li>
+                <li class="nav-item current">
+                    <a href="work.html" class="nav-link">
+                        MY WORK
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        CONTACT ME
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="work">
+        <h1 class="lg-heading">
+            My <span class="text-secondary"> Work </span>
+        </h1>
+        <h2 class="sm-heading">
+            Check out some of my projects...
+        </h2>
+        <div class="projects">
+            <div id="items">
+                <div class="project-details">
+                    <p><span class="text-secondary">Title: </span> Analysis of Clinical Trial Data – Eligibility Tracker </p>
+                    <p><span class="text-secondary">Techonology: </span>R, Machine Learning(NLP)</p>
+                    <p><span class="text-secondary">Details: </span>The project considers clinical trial dataset. We pool the conditions, interventions and eligibility criteria from relevant trials to predict whether a candidate is eligible for a clinical trial or not. We used protocols from cancer clinical trials that were available in public registries from the last 18 years to train our model, and we constructed a dataset of short free-texts using NLP labelled as eligible or not eligible. A text classifier was trained using multiple models like KNN, SVM, Naïve-Bayes and fastText to predict eligibility status of the candidates.</p>
+                    <a href="https://github.com/shivam0312/clinical-trial-analysis" class="btn-dark" target="_blank">
+                        <i class="fab fa-github"> Github</i>
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p><span class="text-secondary">Title: </span> Shivam Srivastava - Portfolio Website </p>
+                    <p><span class="text-secondary">Techonology: </span>HTML, CSS, SASS, JavaScript</p>
+                    <p><span class="text-secondary">Details: </span>This project is a Portfolio Website for Shivam Srivastava that would be yours truly only. This is a small website with the purpose of presenting myself to the visitor. One of the nice part of this project is the navigation tile which transforms to cross sign. This website mainly contains four pages: Landing, About me, My Work and a Contact page which serves the same purpose as their names. This Website is hosted on Github.</p>
+                    <a href="https://shivam0312.github.io/knowshivam/" class="btn-dark" target="_blank">
+                        <i class="fas fa-eye"> Website</i>
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p><span class="text-secondary">Title: </span> AnimeBox - Website </p>
+                    <p><span class="text-secondary">Techonology: </span>HTML, CSS, JavaScript, NodeJS, ExpressJS, Bootstrap, mongoDB, REST-API</p>
+                    <p><span class="text-secondary">Details: </span>The project is a multi user anime detail sharing website. The frontend has been handled using BootStrap and the backend is based on NodeJS. For user management service passportJS has been used. This website leverages the features provided by NodeJS and provides a session management sevice. On this website the user is required to SIGN UP before doing tasks like commenting or adding a new anime detail. This website leverages the guidelines provided by REST APIs to guide through the content manipulation and comments handling. The data is stored on mlab provided by mongoDB and the website is hosted on Heroku.</p>
+                    <a href="http://demoanime.herokuapp.com" class="btn-dark" target="_blank">
+                        <i class="fas fa-eye"> Website</i>
+                    </a>
+                </div>
+                <div class="project-details">
+                    <p><span class="text-secondary">Title: </span> Capital Market Banking Analysis </p>
+                    <p><span class="text-secondary">Techonology: </span>Microsoft SQL Server with BI </p>
+                    <p><span class="text-secondary">Details: </span>Capital Market- Banking analytical processing gives the idea to demonstrate all evaluated and strategic necessities of the business requirements related to Capital markets, Loans, Stock Evaluation and the systematic approach for the decision making and support. It describes the insights on the role and requirement of real time BI by examining the business needs. It explores the concepts of BI, its components, emergence of BI, benefits of BI, factors influencing BI and technology requirements.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2018
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
